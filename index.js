@@ -1,3 +1,4 @@
-console.log("Hello JavaScript");
-console.log("Hello Java");
-console.log("Hello Script");
+console.log("Learn Javascript")
+var d = new Date();
+console.log(d);
+document.write(d);
