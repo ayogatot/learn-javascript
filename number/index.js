@@ -85,8 +85,23 @@ document.write(
 
 document.write("<br />");
 
-console.log("Jumlah Keliling + Diameter = " + tambahLingkaran(kelilingLingkaran(pi, r), diameterLingkaran(r)));
-document.write("Jumlah Keliling + Diameter = " + tambahLingkaran(kelilingLingkaran(pi, r), diameterLingkaran(r))+"<br />");
+console.log(
+  "Jumlah Keliling + Diameter = " +
+    tambahLingkaran(kelilingLingkaran(pi, r), diameterLingkaran(r))
+);
+document.write(
+  "Jumlah Keliling + Diameter = " +
+    tambahLingkaran(kelilingLingkaran(pi, r), diameterLingkaran(r)) +
+    "<br />"
+);
 
+document.write("Mengulang Array 3 sebanyak Array 3 juga " + "<br />");
+for (var i = 0; i < numchar[3] ; i++) {
+  document.write(numchar[3]);
+  console.log(numchar[3]);
+  
+}
+
+document.write("<br />");
 document.write("<br />");
 document.write(dateNow);
