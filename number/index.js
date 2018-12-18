@@ -39,7 +39,7 @@ document.write("<br />");
 if (numchar[2] > numchar[3]) {
   console.log("Array 2  lebih besar dari Array 3");
   document.write("Array 2  lebih besar dari Array 3");
-}else if (numchar[2] < numchar[3]) {
+} else if (numchar[2] < numchar[3]) {
   console.log("Array 2  lebih kecil dari Array 3");
   document.write("Array 2  lebih kecil dari Array 3");
 } else {
@@ -95,10 +95,9 @@ document.write(
 );
 
 document.write("Mengulang Array 3 sebanyak Array 3 juga " + "<br />");
-for (var i = 0; i < numchar[3] ; i++) {
+for (var i = 0; i < numchar[3]; i++) {
   document.write(numchar[3]);
   console.log(numchar[3]);
-  
 }
 
 document.write("<br />");
