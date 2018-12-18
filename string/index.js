@@ -15,7 +15,7 @@ document.write("Huruf kecil semua = " + yeah.toLowerCase() + "<br />");
 document.write("<br />");
 
 document.write("To Title Case : ")
-for (var i = 0; i < yeah.length ; i++){
+for (let i = 0; i < yeah.length ; i++){
     if (i == 15) {
         console.log(yeah[15].toUpperCase());   
         document.write(yeah[15].toUpperCase());
@@ -27,6 +27,15 @@ for (var i = 0; i < yeah.length ; i++){
         document.write(yeah[0].toUpperCase());
     } else {
         console.log(yeah[i]);   
+        document.write(yeah[i]);
+    }
+}
+
+document.write("<br />");
+for (let i=0; i <yeah.length ; i++){    
+    if ((yeah[i]-1) == "&nbsp"){
+        document.write(yeah[i].toUpperCase);
+    } else {
         document.write(yeah[i]);
     }
 }
