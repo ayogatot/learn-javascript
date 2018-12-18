@@ -39,8 +39,7 @@ document.write("<br />");
 if (numchar[2] > numchar[3]) {
   console.log("Array 2  lebih besar dari Array 3");
   document.write("Array 2  lebih besar dari Array 3");
-}
-if (numchar[2] < numchar[3]) {
+}else if (numchar[2] < numchar[3]) {
   console.log("Array 2  lebih kecil dari Array 3");
   document.write("Array 2  lebih kecil dari Array 3");
 } else {
