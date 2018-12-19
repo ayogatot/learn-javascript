@@ -41,6 +41,7 @@ console.log(printMr);
 
 // Level 2
 console.log("Level 2 : Display names with gender");
+
 names.forEach(function(gender) {
   let text = "";
   if (gender.includes("Mr.")) {
@@ -53,6 +54,8 @@ names.forEach(function(gender) {
 });
 
 // Level 3
+console.log("Level 3 : Search Name");
+
 function search_name(names, str) {
   return names.filter(name => name.includes(str));
 }
@@ -64,7 +67,12 @@ console.log("Level 4 : Merger 2 Array");
 
 console.log(names1.concat(names2));
 
-/*
+
 // Level 5
-console.log("Modify Name");
-*/
+console.log("Level 5 : Modify Name");
+
+function selection (names){
+    return names.filter(word => word.typeof == 'string');
+}
+
+console.log(selection(names));
