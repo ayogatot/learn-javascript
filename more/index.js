@@ -72,7 +72,6 @@ console.log(names1.concat(names2));
 console.log("Level 5 : Modify Name");
 
 function selection (names){
-    return names.filter(word => word.typeof == 'string');
+    return names.filter(word => typeof word == 'string');
 }
-
-console.log(selection(names));
+console.log(selection(names3));
