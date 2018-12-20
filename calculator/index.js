@@ -43,6 +43,9 @@ console.log(resultOperation);
 console.log("Basic Mathematic Formulas");
 
 console.log("Result of cirleArea / (squareArea + triangleArea)");
+console.log("circleArea with r = 7");
+console.log("squareArea with side = 4");
+console.log("triangleArea with base = 4 and height = 7");
 
 const resultFormula = calculator.math.divide(calculator.shape.circleArea(7),calculator.math.add(calculator.shape.squareArea(4),calculator.shape.triangleArea(4,7)))
 
