@@ -1,0 +1,20 @@
+
+curl -X POST \
+https://api.instagram.com/oauth/access_token \
+-F client_id=714874046270568 \
+-F client_secret=868b0b754bc2ff15a62e68c6b1cf22e7 \
+-F grant_type=authorization_code \
+-F redirect_uri=https://learn-basic-javascript.netlify.app/ \
+-F code=AQBB2KSKavOwB7LK_x5GQLzoaMTLM-ssAE-TVI3rkUaNQIPKVZWiQWxInLhhKuumSWV9Jg0L_PaXddF9-0fjTnyxEMRMDXfpMIUbRoIDLX-L3jjV3_gY7qUuM_PMnadAlQA_VWasyFD06p3nV229dN0G_8aD72MH2GoKEyLbi6ya7Iu8eGfmolmYnqZNy4Ib6JJs95MvGffYGF2m9wbZtMk6W5Eez6RnOjhzIvUNwKRAxg
+
+{"access_token":
+"IGQVJYbTRvdzgtclhMbnQ2R1FNclozaXBnalp4Vnc5amVXVzA0QlZAGV1dfYjlHbl9mem1zN0lUVm5LS0FvZAWhFY0RPRGI2bTRhMkk3MXFiSldzZAFE2TlVlTGoyMFJla0J0blpPc1pSaW14bmlFaWY5VWlvdjhMdFlMREdV",
+"user_id": 17841401669642843}%
+
+curl -X GET \
+'https://graph.instagram.com/v14.0/17841401669642843/media?fields=id,username&access_token=IGQVJYbTRvdzgtclhMbnQ2R1FNclozaXBnalp4Vnc5amVXVzA0QlZAGV1dfYjlHbl9mem1zN0lUVm5LS0FvZAWhFY0RPRGI2bTRhMkk3MXFiSldzZAFE2TlVlTGoyMFJla0J0blpPc1pSaW14bmlFaWY5VWlvdjhMdFlMREdV'
+
+{"id":"5614953491849703","username":"arvinfairuzh"}%
+
+curl -X GET \
+'https://graph.facebook.com/v14.0/17841405822304914?&access_token=EAAU2xk01vW4BAEHWYEvmjZBgZAcKgoSVz2GG72AT9HtTvKaLtSqUwWgFIbXorTqlkm49zYP8vJcLZC5avDF9t0FOeavJpLhQcHM4IGDM2Mc6kku2jb0ZBXpD0SsZA7AI93jFiEcFWNneUSY3HyKcrabrHNzVG9sQETaqvSTkVVZAmvTOos2X8BKc5u9yQW2cWyvM5aZAINfZCi10ZAZA4DZBKyJLLKsDJFka69z7YzhiuknIZA5ZBPgnqHDmCGEBPryUFuNwZD'
